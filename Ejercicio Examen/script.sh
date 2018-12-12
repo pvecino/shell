@@ -1,6 +1,7 @@
 #!/bin/sh
 file=$1
-if [ $file ] #compruebo si se ha introducido un argumento, si no ERROR
+if [ $file ] #compruebo si se ha introducido un argumento, si no ERROR 
+#if [ $# -ne 1 ]
 then
   #creo el archivo
    touch $1
